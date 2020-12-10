@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Validate</title>
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <script type="text/javascript" src="jquery.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Login Form</h1>
+        </header>
+        <div id="form">
+            <form id="register" action="intro.html" method="post">
+                <label>Enter Your Name</label><span>*</span><br />
+                <input type="text" id="name" name="name" placeholder="Enter name..." /><br />
+                <span id="name_error"></span><br />
+                <br />
+                <label>Father Name</label><span>*</span><br />
+                <input type="text" id="father" name="father" placeholder="Father Name.." /><br />
+                <span id="fname_error"></span><br />
+                <br />
+                <label>Enter Mobile Number</label><span> * </span><br />
+                <input type="tel" id="number" name="number" placeholder="Mobile Number.." /><br />
+                <span id="number_error"></span><br />
+                <br />
+                <label>Enter email Address</label><span>*</span><br />
+                <input type="email" id="email" name="email" placeholder="Email Address..." /><br />
+                <span id="email_error"></span><br />
+                <br />
+                <label>Address</label><span>*</span><br />
+                <input type="text" id="address" name="address" placeholder="Address...." /><br />
+                <span id="address_error"></span><br />
+                <br />
+                <input class="btn" type="submit" name="btn" value="Submit" />
+            </form>
+        </div>
+    </body>
+    <script type="text/javascript" src="main.js"></script>
+</html>

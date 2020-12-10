@@ -1,0 +1,49 @@
+#form{
+	align-items: center;
+	margin-left: 30%;
+}
+body{
+	background-color: black;
+}
+header
+{
+	padding-top: 0.4%;
+	padding-bottom: 0.3%;
+	background-color: black;
+	color: red;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 2%;s
+}
+label{
+	font-size: 30px;
+	color: white;
+	
+}
+input{
+	background:transparent;
+	height: 8vh;
+	width: 60%;
+	font-size: 20px;
+	color: white;
+}
+.btn{
+	background-color: green;
+	width: 50%;
+	margin-left: 5%;
+	border-radius: 20px;
+	border:none;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	outline: none;
+}
+.btn:hover{
+	color: white;
+	background-color: #891A02;
+}
+span{
+	color: red;
+}
